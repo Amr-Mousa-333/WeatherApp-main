@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.btn-outline-primary{
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+
+.active{
+    color: #009ad8 !important;
+}
+
+.input-group>.form-control:focus, .input-group>.form-floating:focus-within, .input-group>.form-select:focus {
+     z-index: 0; 
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #00000018 !important;
+    outline: 1 !important;
+    box-shadow: 0 0 0 !important;
+}
+
+.btnInput{
+    position: absolute;
+    background-color: #009ad8 !important;
+    border-color: #009ad8 !important;
+    right: 17px;
+    top: 37%;
+    width: 100px;
+    z-index: 999;
+}
+
+::placeholder {
+    color: #ffffff92 !important;
+    opacity: 1; 
+  }
+
+  section{
+    background-image: url(./imgs/12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .cardSection{
+    background-color: #323544;
+    color: #FFFFFF;
+  }
+
+  .card-footer{
+    background-color: #2D303D;
+    color: #FFFFFF;
+  }
+
+  .cardBg{
+    background-color: #222530;
+    color: #FFFFFF;
+  }
+
+  .cardCenter{
+    background-color: #262936;
+    color: #FFFFFF;
+  }
